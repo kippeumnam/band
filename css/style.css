@@ -1,0 +1,12 @@
+:root {
+    --main-color: #5865f2;
+    --font-white: #fff;
+    --font-black: #4f545c;
+    /* 아이콘내부bar */
+    --font-bar: #ccc;
+    --font-squre: #f2f2f2;
+    --font-button: #3BA55C;
+    /* 자세히버튼 */
+    --font-footer: #23272a;
+
+}
