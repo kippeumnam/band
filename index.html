@@ -9,24 +9,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="shortcut icon" type="image/x-icon" href="img/shortcut.ico"> -->
-    <style>
-        .link {
-            width: 100%;
-            height: 100%;
-            display: block;
-            /* a영역 정해주기 위한 태그 */
-        }
-
-        .band-logo {
-            background: url('img/img.png') no-repeat 0 -98px;
-            width: 78px;
-            height: 29px;
-        }
-
-        header {
-            background-color: aqua;
-        }
-    </style>
 </head>
 
 <body>
@@ -57,29 +39,37 @@
     </header>
     <main>
         <section id="main-title">
-            <article class="main-text">
-                <h2>모임이 쉬워진다!<br>
-                    우리끼리 밴드</h2>
-                <p class="main-explanation">당신의 모임도 BAND로 시작하세요</p>
-                <button class="login main-login">로그인</button>
-                <button class="join">회원가입</button>
-                <p class="guide">내게 맞는 밴드를 만나려면 <a href="">밴드 찾기</a></p>
-                <p class="guide">모임별 밴드 활용법 <a href="">밴드 가이드 보기</a></p>
+            <article class="main-article">
+                <div class="main-imgs">
+                    <img src="img/main1.jpg" alt="밴드메인">
+                </div>
+                <div class="main-text">
+                    <h2>모임이 쉬워진다!<br>
+                        우리끼리 밴드</h2>
+                    <p class="main-explanation">당신의 모임도 BAND로 시작하세요</p>
+                    <button class="main-login login">로그인</button>
+                    <button class="login join">회원가입</button>
+                    <p class="guide">내게 맞는 밴드를 만나려면 <a href="">밴드 찾기</a></p>
+                    <p class="guide">모임별 밴드 활용법 <a href="">밴드 가이드 보기</a></p>
+                </div>
             </article>
         </section>
         <section id="introduce-title">
             <div class="introduce-main">
-                <h3>모임을 위한 공간, 밴드</h3>
-                <p class="introduce-explanation">
-                    밴드는 그룹 멤버와 함께 하는 공간입니다. <br>
-                    동호회, 스터디, 주제별 모임을 밴드로 시작하세요.
-                </p>
+                <div class="introduce-imgs"></div>
+                <div class="introduce-text">
+                    <h3>모임을 위한 공간, 밴드</h3>
+                    <p class="introduce-explanation">
+                        밴드는 그룹 멤버와 함께 하는 공간입니다. <br>
+                        동호회, 스터디, 주제별 모임을 밴드로 시작하세요.
+                    </p>
+                </div>
             </div>
             <article id="introduce-guide">
                 <ul>
                     <li>
-                        <figure class="logo">
-                            <!-- 백그라운드로 넣어줄것 -->
+                        <figure>
+                            <img src="img/intro1.jpg" alt="손을 모으고 있는 사진">
                         </figure>
                         <h4>어떤 모임이라도!</h4>
                         <p>친구, 가족, 동료 등 함께 하고 싶은 사람과
@@ -89,7 +79,7 @@
                     </li>
                     <li>
                         <figure>
-                            <img src="img/intro2.jpg" alt="">
+                            <img src="img/intro2.jpg" alt="네명의 남여가 웃는 사진">
                         </figure>
                         <h4>모임에 딱 맞는 기능들</h4>
                         <p>투표로 의견을 모으고, 함께 일정을 공유하며
@@ -99,7 +89,7 @@
                     </li>
                     <li>
                         <figure>
-                            <img src="img/intro3.jpg" alt="">
+                            <img src="img/intro3.jpg" alt="자전거 탄 네명의 뒷모습">
                         </figure>
                         <h4>내가 원하는 모임 찾기</h4>
                         <p>취미, 스포츠, 또래 모임 등<br>
@@ -110,16 +100,17 @@
             </article>
         </section>
         <section id="introduce-search">
-            <div class="recommend">
-                <h4>이런 밴드는 어때요</h4>
-                <a href="">모두보기</a>
-                <ul>
+            <div class="introduce-inner">
+                <div class="recommend-menu">
+                    <h4>이런 밴드는 어때요</h4>
+                    <a href="">모두보기</a>
+                </div>
+                <ul class="recommend-container">
                     <li>
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <!-- 다 이미지 변경 -->
-                                <img src="img/band-korean.jpg" alt="">
+                                <img src="img/band-korean.jpg" alt="한글맞춤법 밴드">
                             </figure>
                             <h5>한글 맞춤법 교습소</h5>
                             <p class="explanation">우리글/말을 바르게 쓰기 위해 학습하는 곳입니다.</p>
@@ -133,7 +124,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-rainbow.jpg" alt="">
+                                <img src="img/band-rainbow.jpg" alt="레인보우식스시즈 밴드">
                             </figure>
                             <h5>레인보우식스시즈 커뮤니티 밴드</h5>
                             <p class="explanation">레인보우 식스 시즈 커뮤니티 밴드입니다!</p>
@@ -146,7 +137,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-trip.jpg" alt="">
+                                <img src="img/band-trip.jpg" alt="여행 밴드">
                             </figure>
                             <h5>배낭하나 달랑 메고</h5>
                             <p class="explanation">국내외 지역 제한없이 여행을 사랑하는 사람들의 모임입니다.</p>
@@ -159,7 +150,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-tree.jpg" alt="">
+                                <img src="img/band-tree.jpg" alt="풍경 밴드">
                             </figure>
                             <h5>풍경</h5>
                             <p class="explanation"></p>
@@ -172,7 +163,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-china.jpg" alt="">
+                                <img src="img/band-china.jpg" alt="중국어 밴드">
                             </figure>
                             <h5>EBS중국중국어@매일중국어낭독</h5>
                             <p class="explanation">EBS중급중국어교재로 매일 중국어를 낭독해요!</p>
@@ -185,7 +176,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-eng.jpg" alt="">
+                                <img src="img/band-eng.jpg" alt="영국식영어 밴드">
                             </figure>
                             <h5>매일 영국영어</h5>
                             <p class="explanation">매일 영국식 영어(미국식 영어와 다르 단어의 발음,철자</p>
@@ -198,7 +189,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-book.jpg" alt="">
+                                <img src="img/band-book.jpg" alt="책읽기 필사 밴드">
                             </figure>
                             <h5>하루30분책읽기필사</h5>
                             <p class="explanation">매일 하루 30분씩 책읽고 가슴에 와닿은 한줄 필사하기로 책읽기</p>
@@ -211,7 +202,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-guitar.jpg" alt="">
+                                <img src="img/band-guitar.jpg" alt="악기연습방 밴드">
                             </figure>
                             <h5>기타.우쿠렐레 악기 연습방(기우방)</h5>
                             <p class="explanation">우쿠렐레나 기타를 취미로 하려고 해도, 초보자는 어디에</p>
@@ -224,7 +215,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-pop.jpg" alt="">
+                                <img src="img/band-pop.jpg" alt="올드팝 밴드">
                             </figure>
                             <h5>영화음악 올드팝에 빠지다</h5>
                             <p class="explanation">추억의 영화음악 올드팝에 함께합니다. 한번 빠져보세요.</p>
@@ -237,7 +228,7 @@
                         <div class="recommend-inner">
                             <a href=""></a>
                             <figure>
-                                <img src="img/band-diary.jpg" alt="">
+                                <img src="img/band-diary.jpg" alt="감사일기 밴드">
                             </figure>
                             <h5>매일쓰는 세가지 감사일기</h5>
                             <p class="explanation"></p>
@@ -251,7 +242,7 @@
         </section>
         <div class="band-apps">
             <figure>
-                <img src="img/img.png" alt="">
+                <img src="img/img.png" alt="어플다운 배너">
             </figure>
             <div class="band-apps-inner">
                 <h3>밴드앱을 다운로드 하세요!</h3>
