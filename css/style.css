@@ -223,6 +223,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     width: 70%;
+    margin: 0 auto;
 }
 .recommend-container li{
     display: flex;
