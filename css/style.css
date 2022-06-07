@@ -201,9 +201,10 @@ main{
 
 #introduce-search {
     background-color: var(--font-inner);
+}
+.introduce-inner{
     margin: 0 auto;
-    box-sizing: border-box;
-
+    max-width: 80%;
 }
 .recommend-menu{
     display: flex;
@@ -220,13 +221,19 @@ main{
 }
 .recommend-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: column wrap;
 }
 .recommend-container li{
     display: flex;
 }
-.recommend-inner img{
-    width: 100px;
-    height: 100px;
+.recommend-inner {
+    display: flex;
+    flex-direction: row;
+    /*  */
 }
-
+.recommend-inner img{
+    width: 93px;
+    height: 93px;
+}
+.recommend-inner figure {
+}
