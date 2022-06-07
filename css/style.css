@@ -221,7 +221,8 @@ main{
 }
 .recommend-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    width: 70%;
 }
 .recommend-container li{
     display: flex;
@@ -229,6 +230,7 @@ main{
 .recommend-inner {
     display: flex;
     flex-direction: row;
+    
     /*  */
 }
 .recommend-inner img{
