@@ -1,7 +1,4 @@
-/* 1 .right button::after 화살표 위치잡기 여쭤보기
-    2..footer-nav li::after 도움말 뒤에 온점 없애기
- */
-
+/* 1 .right button::after 화살표 위치잡기 여쭤보기*/
 
 :root {
     --header: #f6f8fa;
@@ -286,12 +283,14 @@ main {
 
 .right {
     padding: 3px 15px 3px 10px;
+}
+.right button{
     position: relative;
 }
 .right button::after {
     position: absolute;
-    left: 135px; 
-    top: 80px;
+    right: 8px; 
+    top: 8px;
     content: '';
     width: 5px;
     height: 5px; 
@@ -299,7 +298,6 @@ main {
     border-right: 1px solid #444; 
     transform: rotate(45deg); 
 }
-/* 화살표 위치잡는법 ㅜㅜ 앱솔루트 쓰면은 플렉스 중첩으로 써도 되는건지*/
 
 .right button {
     display: block;
@@ -397,7 +395,9 @@ footer {
     margin: 10px;
     color: #777;
 }
-
+.footer-nav li:last-child::after{
+    content: '';
+}
 .footer-nav {
     display: flex;
     flex-wrap: wrap;
@@ -414,6 +414,3 @@ address {
 footer .font-strong {
     color: #b3b3b3;
 }
-
-/* 푸터 도움말 뒤에 에프터 없애기 */
-
